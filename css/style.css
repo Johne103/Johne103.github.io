@@ -28,12 +28,14 @@ body, html {
 .bgimg-2 {
     background-image: url('../images/twitter4london.jpg');
     min-height: 400px;
+    opacity: .1;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
     background-image: url('../images/sobuylocalveg.jpg');
     min-height: 400px;
+    opacity: .1;
 }
 
 .w3-wide {letter-spacing: 10px;}
