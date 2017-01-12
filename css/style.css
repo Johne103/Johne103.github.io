@@ -47,3 +47,11 @@ body, html {
         background-attachment: scroll;
     }
 }
+
+.linkedInLogo-top {
+  margin: 30px;
+}
+
+.js-images {
+  margin: 0px;
+}
