@@ -13,26 +13,35 @@ body, html {
     background-size: cover;
 }
 
-/*.display-sphere {
+.display-sphere {
   margin-bottom: 50px;
 
-  animation-name: pulse;
-  animation-duration: 4s;
 
-
-  /* Standard syntax */
-  /*@keyframes pulse {
-      from {opacity: 1;}
-      to {opacity: 0;}
   }
 
-/*}*/*/*/
+
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image: url('../images/backgroundimage2.jpg');
     min-height: 100%;
     opacity: .6;
+
+    animation-name: pulse;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+    /* Standard syntax */
+    @keyframes pulse {
+        from {background-image: url('../images/backgroundimage2.jpg');}
+        /*to {background-image: url('../images/backgroundimage.jpg');}*/
+        to {background-image: url('../images/blueSphereFrontImg.png');}
+        from {background-image: url('../images/backgroundimage2.jpg');}
+        to {background-image: url('../images/backgroundimage.jpg');}
 
     }
 
