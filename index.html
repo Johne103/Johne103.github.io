@@ -31,7 +31,7 @@
       </a>
     </li>
   </ul>
-  
+
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
     <ul class="w3-navbar w3-left-align w3-white">
@@ -185,8 +185,13 @@
       <a href="https://lit-hollows-13153.herokuapp.com/" target="_blank">
       <img src='./images/musicalsquares_buttons.jpg' style="width:100%" class="w3-hover-opacity" alt="Musical Squares"></a>
       <p><strong>MUSICAL SQUARES</strong><br>This project focused on delivering a Minimum Viable Product (MVP) within 3 days  using JavaScript /jQuery. I created a game that manages the interaction of randomised audio clips and images, with timers to enable the fading of images in response to user inputs. The web page was created using HTML5/Responsive CSS3 for support of mobile/tablet Front End interaction  with a Back End served with PHP. <br><strong>Build: </strong>JavaScript/ jQuery, HTML5, Responsive CSS3, CLI, PHP, Git, Heroku, Trello.
-
       </p>
+    </div>
+
+    <div class="w3-col m6">
+      <a href="https://conquiztadors.herokuapp.com/" target="_blank">
+      <img src="./images/avengers_alliance.jpg" style="width:100%"  class="w3-hover-opacity" alt="Conquiztadors"></a>
+      <p><strong>CONQUIZTADORS</strong><br>A collaborative team project developing a RESTful game in which a player takes on the role of a Marvel superhero. The solution makes use of external APIs from Marvel, Google, and RestCountries.eu. An internal API with country details was also used. The database uses a NoSQL MongoDB with a NodeJS server on the Back End. I developed the quiz logic which drove user inputs for the game and win outcomes.<br><strong>Build: </strong> Express, HTML5, SCSS, NodeJS, MongoDB, MVC, external APIs. Git, NPM</p>
     </div>
 
     <div class="w3-col m6">
@@ -200,7 +205,27 @@
       <img src="./images/sobuylocalfruit.jpg" style="width:100%" class="w3-hover-opacity" alt="SoBuyLocal"></a>
       <p><strong>SOBUYLOCAL</strong><br>This is a RESTful desktop and mobile app I developed using an AngularJS Front End and Ruby /Ruby on Rails Back End. Postgres SQL was used to manage an internal API created for customer/ store and product details. Insomnia was used for Back End resource management, while Bootstrap enabled the rapid deployment of styling updates. I used Trello, Balsamiq and MoSCoW to support planning and  delivery of key tasks to achieve MVP and deployment of the solution via GitHub and Heroku.<br><strong>Build: </strong> AngularJS, Ruby on Rails, SQL/Postgres, JWT, Bootstrap/CSS3/HTML5. Gulp.</p>
     </div>
+
   </div>
+
+  <!-- <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
+    <button class="w3-btn w3-light-grey w3-padding-xlarge" style="margin-top:64px">LOAD MORE</button>
+  </div> -->
 </div>
 
 <!-- Modal for full size images on click-->
@@ -303,6 +328,10 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
+
+
+
+
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
 function myFunction() {
